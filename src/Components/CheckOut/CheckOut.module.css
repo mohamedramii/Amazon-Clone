@@ -1,0 +1,81 @@
+
+.CheckOut{
+    display: flex;
+    width: 98%;
+    height: 100vh;
+    padding: 1rem;
+
+}
+.ChOutContainer{
+    display: flex;
+    justify-content: start;
+}
+
+.ChOutLeft{
+
+    width:75%;
+}
+
+
+
+.ChOutAdv img{
+    width: 100%;
+    padding-bottom: 1.5rem;
+}
+
+.ChOutTitle{
+    margin-top: 1.5rem;
+        border-bottom: 2.2px solid lightgrey;
+        padding-bottom: 1.2rem;
+        font-size: 1.5rem;
+}
+
+
+.ChOutProcsBtn>button {
+    margin: 1rem auto 0;
+    background-color: #cd9042;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    cursor: pointer;
+    width: 15rem;
+    height: 3.5rem;
+    border-radius: 0.5rem;
+    transition: 0.3s ease;
+}
+
+.ChOutProcsBtn>button:active {
+    transform: scale(0.8);
+}
+.ChOutRight{width: 25%;
+    height: 50%;
+padding:1rem;
+}
+
+.ChOutProcs {
+    height: 25%;
+    width: 70%;
+    display: flex;
+}
+.ChOutProcsBox{
+    height: 100%;
+    padding: 1rem;
+        width: 100%;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    padding:2rem 2rem 2rem 2rem ;
+}
+
+.ChOutProcsTitle p{
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+.ChOutProcsGift span {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: 0.4rem;
+}
+.ChOutProcsBtn button{
+    margin-top: 1rem;
+}

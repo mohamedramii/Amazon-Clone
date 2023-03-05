@@ -1,0 +1,72 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.logoHeader{
+    width: 10rem;
+    padding-bottom: 1rem;
+}
+
+.loginTitle{
+    font-size: 1.6rem;
+}
+
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+    height: 28rem;
+    width: 25rem;
+    padding: 1.5rem;
+    border: 1px solid lightgray;
+}
+
+.loginInputs{
+    padding-top: 1.8rem;
+    display: flex;
+    flex-direction: column;
+}
+.titleInput{
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+.labelInput{
+    border: 1px solid lightgray;
+padding: 0.5rem;
+}
+
+.loginBtn{
+display: flex;
+    margin-top: 1rem;
+        
+}
+
+.loginBtn button{
+    width: 100%;
+    background-color: #cd9042;
+    border: none;
+color: #111;
+padding: 0.5rem;
+cursor: pointer;}
+.loginPara{
+    margin-top: 1.5rem;
+}
+
+.signupBtn {
+    display: flex;
+        margin-top: 1rem;
+}
+
+.signupBtn button{
+        width: 100%;
+            background-color: #cd9042;
+            border: none;
+            color: #111;
+            padding: 0.5rem;
+            cursor: pointer;
+            background-color: lightgray;
+            border: 1px solid darkgray;
+}
